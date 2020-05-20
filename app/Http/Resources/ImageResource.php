@@ -16,7 +16,7 @@ class ImageResource extends JsonResource
     {
         return [
             'url'=> $this->url,
-            'product_id'=>$this->product_id,
+            //'product_id'=>$this->product_id,
 
         ];
     }
