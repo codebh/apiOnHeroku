@@ -59,7 +59,7 @@ class AuthController extends Controller
             'errror' => true,
             'message' => 'User login attempt failed',
         ];
-        return response($message,404);
+        return response($message,401);
 
     }
 }
